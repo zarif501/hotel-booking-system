@@ -1,4 +1,6 @@
-@views.route('/add_room', methods=['GET', 'POST'])
+from flask import Blueprint, render_template, request, redirect, url_for
+views = Blueprint('views', __name__)
+views.route('/add_room', methods=['GET', 'POST'])
 def add_room():
     if request.method == 'POST':
         name = request.form.get('room_name')
