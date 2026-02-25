@@ -2,10 +2,10 @@ from database import create_tables
 
 create_tables()
 
-
+# login
 def login(email, password):
     import sqlite3
-    conn = sqlite3.connect('hotel.db')
+    conn = sqlite3.connect('hotel_db.sql')
     cursor = conn.cursor()
 
     cursor.execute(
@@ -16,13 +16,13 @@ def login(email, password):
 
     return user
 
-
+# book_room
 def book_room(user_id, room_id, check_in, check_out):
 
     import sqlite3
     from datetime import datetime
 
-    conn = sqlite3.connect('hotel.db')
+    conn = sqlite3.connect('hotel_db.sql')
     cursor = conn.cursor()
 
     # get room price
@@ -47,7 +47,7 @@ def book_room(user_id, room_id, check_in, check_out):
 
     return total_price
 
-
+#cancel_booking
 def cancel_booking(booking_id):
     import sqlite3
     conn = sqlite3.connect('hotel.db')
@@ -58,5 +58,5 @@ def cancel_booking(booking_id):
 
     conn.commit()
     conn.close()
-
+#price calculation
 Total Price = Room Price × Number of Days

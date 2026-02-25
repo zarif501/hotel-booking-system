@@ -1,8 +1,8 @@
 import sqlite3
 
 def create_tables():
-    conn = sqlite3.connect('hotel.db')
-    cursor = conn.cursor()
+    hotel_data = sqlite3.connect('hotel.db')
+    cursor = hotel_data.cursor()
 
     # USERS
     cursor.execute('''
