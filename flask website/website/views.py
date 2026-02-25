@@ -1,32 +1,37 @@
-from flask import Blueprint, render_template, request, redirect, url_for
+from flask import Blueprint, request, jsonify 
 views = Blueprint('views', __name__)
-views.route('/add_room', methods=['GET', 'POST'])
+@views.route('/add_room', methods=['GET', 'POST'])
 def add_room():
     if request.method == 'POST':
-        name = request.form.get('room_name')
-        price = request.form.get('price')
+        data =request.get_json()
+
+        name = data.get('name')
+        price = data.get('price')
 
         # save to database (later)
 
-        return redirect('/rooms')
-
-    return render_template('add_room.html')
+        return jsonify({"message": "Room added successfully"})
+    return jsonify({"message": "Send POST request"})
 
 @views.route('/rooms')
 def rooms():
     rooms = []  # later from database
-    return render_template('rooms.html', rooms=rooms)
+    return jsonify(rooms)
 
 @views.route('/edit_room/<int:id>', methods=['GET', 'POST'])
 def edit_room(id):
     if request.method == 'POST':
         # update database
-        return redirect('/rooms')
+        return jsonify({"message": "Room updated"})
 
     room = {}  # get from DB
-    return render_template('edit_room.html', room=room)
+    return jsonify(room)
 
 @views.route('/bookings')
 def bookings():
     bookings = []
-    return render_template('bookings.html', bookings=bookings)
+    return jsonify(bookings)
+
+@views.route('/delete_room/<int:id>', methods=['DELETE'])
+def delete_room(id):
+    return jsonify({"message": "Room deleted"})
