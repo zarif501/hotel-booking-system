@@ -50,6 +50,48 @@
             }
           },
           {
+            "id": "dae2724d16c4482f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Price calculation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Price calculation"
+            }
+          },
+          {
+            "id": "bc9460386118fca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cancel booking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cancel booking"
+            }
+          },
+          {
+            "id": "51b87802128826f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Booking system logic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Booking system logic"
+            }
+          },
+          {
             "id": "64f37b46d459bbe0",
             "type": "leaf",
             "state": {
@@ -92,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -240,13 +282,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfad012df6571e29",
+  "active": "51b87802128826f5",
   "lastOpenFiles": [
-    "Booking system logic.md",
     "Cancel booking.md",
-    "Login check (email + password).md",
-    "Database (SQLite).md",
+    "Booking system logic.md",
     "Price calculation.md",
+    "Database (SQLite).md",
+    "Booking system logic.md",
+    "Login check (email + password).md",
     "Zarif.md",
     "Asa.md",
     "Sadik.md",

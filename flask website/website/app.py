@@ -1,11 +1,3 @@
- HEAD
-from website import create_app
-
-app = create_app()
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
 from database import create_tables
 
 create_tables()
@@ -66,11 +58,5 @@ def cancel_booking(booking_id):
 
     conn.commit()
     conn.close()
-<<<<<<< HEAD
-
-Total Price = Room Price × Number of Days
- ffac1cb9fcbc636a932f62ad7e0cfdabd66d5da3
-=======
 #price calculation
-Total Price = Room Price × Number of Days
->>>>>>> f2173a35500a77a395f38b1391da315265d1cbca
+Total Price = Room Price × Number of Days +vat +KDV
