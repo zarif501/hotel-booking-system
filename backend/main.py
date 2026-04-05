@@ -1,4 +1,9 @@
-from data import app
+from fastapi import FastAPI
+import sqlite3
 
-if __name__ == "__main__":
-    app.run(debug=True)
+app = FastAPI()
+
+
+@app.get("/")
+def home():
+    return {"message": "API is working"}
