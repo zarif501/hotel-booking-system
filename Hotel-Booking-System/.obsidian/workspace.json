@@ -4,137 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fa029b950d1572c0",
+        "id": "6c5f719c84679b1c",
         "type": "tabs",
         "children": [
           {
-            "id": "54f40defe291c4de",
+            "id": "0fb6ce90abb1639b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database (SQLite).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Database (SQLite)"
-            }
-          },
-          {
-            "id": "3cd73f2b3bc6a33d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database (SQLite).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Database (SQLite)"
-            }
-          },
-          {
-            "id": "5f95e9cfcea8e092",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database (SQLite).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Database (SQLite)"
-            }
-          },
-          {
-            "id": "dae2724d16c4482f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Price calculation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Price calculation"
-            }
-          },
-          {
-            "id": "bc9460386118fca8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cancel booking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cancel booking"
-            }
-          },
-          {
-            "id": "51b87802128826f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Booking system logic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Booking system logic"
-            }
-          },
-          {
-            "id": "64f37b46d459bbe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database (SQLite).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Database (SQLite)"
-            }
-          },
-          {
-            "id": "d9e6cde49cafe3f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Booking system logic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Booking system logic"
-            }
-          },
-          {
-            "id": "8baad5368d008a47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cancel booking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cancel booking"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database (SQLite).md",
+                "file": "Untitled 1.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database (SQLite)"
+              "title": "Backlinks for Untitled 1"
             }
           },
           {
@@ -296,14 +179,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51b87802128826f5",
+  "active": "0fb6ce90abb1639b",
   "lastOpenFiles": [
-    "Cancel booking.md",
     "Booking system logic.md",
+    "Untitled.md",
+    "Untitled",
+    "Untitled.base",
     "Price calculation.md",
-    "Database (SQLite).md",
-    "Booking system logic.md",
     "Login check (email + password).md",
+    "Database (SQLite).md",
+    "Cancel booking.md",
+    "Untitled 1.base",
+    "Untitled 2.base",
+    "Untitled 3.base",
     "Zarif.md",
     "Asa.md",
     "Sadik.md",
